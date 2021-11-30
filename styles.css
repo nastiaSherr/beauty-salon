@@ -112,6 +112,7 @@ header {
   list-style: none;
   margin-top: 50px;
   margin-bottom: 20px;
+  align-items: flex-start;
 }
 
 .list-item {
@@ -131,8 +132,9 @@ header {
   text-transform: uppercase;
   font-family: Montserrat;
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
   line-height: 17px;
   color: #333333;
 }
@@ -223,4 +225,161 @@ header {
   font-weight: 500;
   font-style: normal;
   color: rgba(255, 255, 255, 1);
+}
+
+.checkbox-label {
+  width: auto;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 200;
+  color: #333333;
+  margin: 15px;
+  margin-top: 5px;
+}
+
+.text-headline-menu {
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+}
+
+.submit-button {
+  border: 1px solid grey;
+  background-color: #333333;
+  width: 140px;
+  height: 30px;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-style: normal;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+}
+
+.black-block {
+  background-color: rgba(34, 34, 34, 1);
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.contact-form {
+  width: 900px;
+  height: 300px;
+}
+
+.text-contact {
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 17px;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.info-block {
+  text-align: center;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(119, 119, 119, 1);
+}
+
+.text1 {
+  text-align: center;
+  border-radius: 0px;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: -1px;
+  color: rgba(34, 34, 34, 1);
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+
+.inputs {
+  width: 50%;
+  align-items: flex-end;
+}
+
+.inputs input {
+  width: 100%;
+  margin-top: 20px;
+  margin-right: 2px;
+}
+
+.message {
+  width: 60%;
+  align-items: flex-end;
+}
+
+.message textarea {
+  margin-top: 20px;
+  height: 140px;
+  width: 60%;
+  margin-left: 3px;
+}
+
+.text-input {
+  padding-left: 4px;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+  text-align: left;
+  text-transform: uppercase;
+  height: 30px;
+  width: 300px;
+}
+
+.button-text {
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: uppercase;
+  background-color: rgba(254, 209, 54, 1);
+  border-color: rgba(254, 209, 54, 1);
+  padding: 20px;
+  border: 0px;
+  margin-top: 60px;
+  border-radius: 3px;
+  position: relative;
+  display: inline-block;
+  padding: 23px 45px;
+  cursor: pointer;
+}
+
+.button {
+  text-align: center;
+}
+
+.list-image-map {
+  width: 250px;
 }
